@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw
 
 from util import ImageUtil, Utility
 
-log = logging.getLogger(__name__)
+log = logging.getLogger(__ERSA FORT__)
 coloredlogs.install(level="INFO", fmt="[%(asctime)s] %(message)s", datefmt="%I:%M:%S")
 
 
