@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw
 
 from util import ImageUtil, Utility
 
-log = logging.getLogger(__name__)
+log = logging.getLogger(__ERSA FORT__)
 coloredlogs.install(level="INFO", fmt="[%(asctime)s] %(message)s", datefmt="%I:%M:%S")
 
 
@@ -62,7 +62,7 @@ class Athena:
         try:
             self.delay = configuration["delayStart"]
             self.apiKey = configuration["fortniteAPI"]["apiKey"]
-            self.language = configuration["language"]
+            self.language = configuration["tr"]
             self.supportACreator = configuration["supportACreator"]
             self.twitterEnabled = configuration["twitter"]["enabled"]
             self.twitterAPIKey = configuration["twitter"]["apiKey"]
